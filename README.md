@@ -20,6 +20,11 @@ https://file-service-e9i8.onrender.com/actuator/health
 | POST | `/api/files/image` | Subir imagen |
 | GET | `/api/files/stream` | Descargar archivo desde Cloudinary |
 
-## Servicios relacionados
+## Repositorios del proyecto
 
-- [MentorEdu API](https://github.com/mentoredu-app/mentoredu-api) — API principal
+| Repositorio | Descripción | Deploy |
+|---|---|---|
+| [mentoredu-api](https://github.com/mentoredu-app/mentoredu-api) | API REST principal | [Render](https://mentoredu-api.onrender.com/actuator/health) |
+| [File-service](https://github.com/mentoredu-app/File-service) | Gestión de archivos e imágenes | [Render](https://file-service-e9i8.onrender.com/actuator/health) |
+| [mentoredu-frontend](https://github.com/mentoredu-app/mentoredu-frontend) | Aplicación web | [Netlify](https://mentor-edu-frontend.netlify.app) |
+| [mentoredu-landing](https://github.com/mentoredu-app/mentoredu-landing) | Landing page | [GitHub Pages](https://mentoredu-app.github.io/mentoredu-landing/) |
