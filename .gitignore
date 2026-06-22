@@ -1,0 +1,8 @@
+target/
+uploads/
+.env
+.idea
+*.iws
+*.iml
+*.ipr
+.vscode/

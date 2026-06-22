@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: file-service
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: CLOUDINARY_URL
+        sync: false
