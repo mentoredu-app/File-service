@@ -8,6 +8,10 @@ Microservicio encargado de la subida y descarga de archivos (PDFs e imágenes) u
 - Cloudinary (producción) / disco local (desarrollo)
 - Docker · Render.com
 
+## Versión desplegada
+
+`v1.0.0` — [ver tag](https://github.com/mentoredu-app/File-service/releases/tag/v1.0.0)
+
 ## Health check
 
 https://file-service-e9i8.onrender.com/actuator/health

@@ -10,9 +10,17 @@
     </parent>
     <groupId>com.mentoredu</groupId>
     <artifactId>file-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>file-service</name>
     <description>MentorEdu — Servicio independiente de almacenamiento de archivos</description>
+    <url>https://github.com/mentoredu-app/File-service</url>
+
+    <scm>
+        <connection>scm:git:git@github.com:mentoredu-app/File-service.git</connection>
+        <developerConnection>scm:git:git@github.com:mentoredu-app/File-service.git</developerConnection>
+        <tag>v1.0.0</tag>
+        <url>https://github.com/mentoredu-app/File-service</url>
+    </scm>
 
     <properties>
         <java.version>21</java.version>
